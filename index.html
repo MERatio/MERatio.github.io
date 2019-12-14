@@ -9,58 +9,77 @@
   <title>Personal Portfolio Homepage</title>
 </head>
 <body>
-  
-  <!-- || Header/Nav -->
-  <header>
+  <!-- || HEADER/NAV -->
+  <header id="header">
     <nav id="navbar">
-      <ul>
-        <li><a href="#welcome-section" class="navbar-links">About</a></li>
-        <li><a href="#projects" class="navbar-links">Project</a></li>
-        <li><a href="#contact-footer" class="navbar-links">Contact</a></li>
+      <ul class="navbar-list">
+        <li class="navbar-item"><a href="#welcome-section" class="navbar-link">About</a></li>
+        <li class="navbar-item"><a href="#projects" class="navbar-link">Projects</a></li>
+        <li class="navbar-item"><a href="#contact-footer" class="navbar-link">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="main-section">
-
-    <!-- || Welcome section -->
+  <main id="main">
+    <!-- || WELCOME SECTION -->
     <section id="welcome-section">
       <h1>I'm Mark Edward</h1>
       <p>Unemployed</p>
     </section>
 
-    <!-- || Projects section -->
+    <!-- || PROJECT SECTION -->
     <section id="projects">
       <h2>These are my projects</h2>
-      <div id="projects-grid">
-        <a href="https://codepen.io/ratiomark/full/LYYObBW" target="_blank" class="project-tile">
-          <img src="images/tribute-page.png" alt="Project" class="project-image">
-          <p class="project-desc">Tribute Page</p>
-        </a>
-        <a href="https://codepen.io/ratiomark/full/yLLpbOx" target="_blank" class="project-tile">
-          <img src="images/survey-form.png" alt="Project" class="project-image">
-          <p class="project-desc">Survey Form</p>
-        </a>
-        <a href="https://codepen.io/ratiomark/full/dyydWaX" target="_blank" class="project-tile">
-          <img src="images/landing-page.png" alt="Project" class="project-image">
-          <p class="project-desc">Landing page</p>
+      <div id="project-grid">
+        <a href="https://codepen.io/ratiomark/full/LYERWPY" target="_blank" class="project-tile">
+          <img
+            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1576305498/personal-portfolio-webpage/pig-game.png"
+            alt="Technical documentation page image preview" class="project-image">
+          <p class="project-desc">Pig game</p>
         </a>
         <a href="https://codepen.io/ratiomark/full/MWWQRMO" target="_blank" class="project-tile">
-          <img src="images/technical-documentation-page.png" alt="Project" class="project-image">
+          <img
+            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1576305498/personal-portfolio-webpage/technical-documentation-page.png"
+            alt="Technical documentation page image preview" class="project-image">
           <p class="project-desc">Technical documentation page</p>
         </a>
-        </div>
-      <a href="https://codepen.io/ratiomark" target="_blank" class="show-all">Show all <span class="gt">></span></a>
+        <a href="https://codepen.io/ratiomark/full/dyydWaX" target="_blank" class="project-tile">
+          <img
+            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1576305499/personal-portfolio-webpage/product-landing-page.jpg"
+            alt=" Landing page image preview" class="project-image">
+          <p class="project-desc">Product Landing page</p>
+        </a>
+        <a href="https://codepen.io/ratiomark/full/yLLpbOx" target="_blank" class="project-tile">
+          <img
+            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1576305498/personal-portfolio-webpage/survey-form.png"
+            alt="Survey form image preview" class="project-image">
+          <p class="project-desc">Survey Form</p>
+        </a>
+        <a href="https://codepen.io/ratiomark/full/LYYObBW" target="_blank" class="project-tile">
+          <img
+            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1576305499/personal-portfolio-webpage/tribute-page.png"
+            alt="Tribute page image preview" class="project-image">
+          <p class="project-desc">Tribute Page</p>
+        </a>
+      </div>
+      <a href="https://codepen.io/ratiomark" target="_blank" class="show-all">Show all <span
+          class="rarr">&rarr;</span></a>
     </section>
 
-    <!-- || Contact -->
+    <!-- || CONTACT -->
     <footer id="contact-footer">
       <h2>Contact and Accounts</h2>
-      <div id="contacts">
-        <a href="mailto:markedwardratio@gmail.com" target="_blank"><i class="fas fa-at"></i> Email</a>
-        <a href="https://codepen.io/ratiomark" target="_blank"><i class="fab fa-codepen"></i> Codepen</a>
-        <a href="https://www.freecodecamp.org/ratiomark" target="_blank" id="profile-link"><i class="fab fa-free-code-camp"></i> freeCodeCamp</a>
-      </div>
+      <ul id="contact-list">
+        <li class="contact-item"><a href="mailto:markedwardratio@gmail.com" class="contact-link contact-email"
+            target="_blank"><i class="fas fa-at"></i>
+            Email</a>
+        </li>
+        <li class="contact-item"><a href="https://codepen.io/ratiomark" class="contact-link contact-codepen"
+            target="_blank"><i class="fab fa-codepen"></i>
+            Codepen</a></li>
+        <li class="contact-item"><a href="https://www.freecodecamp.org/ratiomark" class="contact-link contact-fcc"
+            id="profile-link" target="_blank"><i class="fab fa-free-code-camp"></i> freeCodeCamp</a></li>
+      </ul>
     </footer>
   </main>
 </body>
