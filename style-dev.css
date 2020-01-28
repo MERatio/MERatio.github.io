@@ -96,8 +96,7 @@ h2:after {
   transition: all 0.2s;
 }
 
-.navbar-link:hover,
-.nav-bar-link:active {
+.navbar-link:hover {
   color: var(--color-black);
   background-color: var(--color-white);
 }
@@ -145,9 +144,7 @@ h2:after {
   transition: all 0.2s;
 }
 
-.project-tile:hover,
-.project-tile:active,
-.project-tile:focus {
+.project-tile:hover {
   transform: var(--translate-y);
   box-shadow: var(--box-shadow-2);
 }
@@ -203,8 +200,7 @@ h2:after {
   transition: all 0.2s;
 }
 
-.show-all:hover .rarr,
-.show-all:focus .rarr {
+.show-all:hover .rarr {
   margin-left: 1rem;
 }
 
@@ -241,9 +237,7 @@ h2:after {
   transition: all 0.2s;
 }
 
-.contact-link:hover,
-.contact-link:active,
-.contfocusact-link:focus {
+.contact-link:hover {
   transform: scale(1.1);
 }
 
