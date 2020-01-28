@@ -1,104 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Mark Edward Ratio Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <title>Personal Portfolio Homepage</title>
-</head>
+  <body>
+    <!-- header/nav -->
+    <header id="header">
+      <nav id="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#welcome-section" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contacts-footer" class="navbar-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <!-- header/nav -->
-  <header id="header">
-    <nav id="navbar">
-      <ul class="navbar-list">
-        <li class="navbar-item"><a href="#welcome-section" class="navbar-link">About</a></li>
-        <li class="navbar-item"><a href="#projects" class="navbar-link">Projects</a></li>
-        <li class="navbar-item"><a href="#contacts-footer" class="navbar-link">Contacts</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main id="main">
+      <!-- welcome section -->
+      <section id="welcome-section">
+        <h1>I'm Mark Edward Ratio</h1>
+        <p>Unemployed</p>
+      </section>
 
-  <main id="main">
-    <!-- welcome section -->
-    <section id="welcome-section">
-      <h1>I'm Mark Edward Ratio</h1>
-      <p>Unemployed</p>
-    </section>
+      <!-- project section -->
+      <section id="projects">
+        <h2>These are some of my projects</h2>
+        <div id="project-grid">
+          <a
+            href="https://github.com/MERatio/to-do-list"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1580201064/personal-portfolio-webpage/to-do-list.png"
+              alt="Project preview"
+              class="project-image"
+            />
+            <p class="project-desc">To-do List</p>
+          </a>
+          <a
+            href="https://github.com/MERatio/pomodoro-clock"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243883/personal-portfolio-webpage/pomodoro-clock.png"
+              alt="Project preview"
+              class="project-image"
+            />
+            <p class="project-desc">Pomodoro Clock</p>
+          </a>
+          <a
+            href="https://github.com/MERatio/calculator"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243881/personal-portfolio-webpage/calculator.png"
+              alt="Project preview"
+              class="project-image"
+            />
+            <p class="project-desc">Calculator</p>
+          </a>
+          <a
+            href="https://github.com/MERatio/markdown-previewer"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243882/personal-portfolio-webpage/markdown-previewer.png"
+              alt="Project preview"
+              class="project-image"
+            />
+            <p class="project-desc">Markdown Previewer</p>
+          </a>
+          <a
+            href="https://github.com/MERatio/drum-machine"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243881/personal-portfolio-webpage/drun-machine.png"
+              alt="Project preview"
+              class="project-image"
+            />
+            <p class="project-desc">Drum Machine</p>
+          </a>
+          <a
+            href="https://github.com/MERatio/random-quote-machine"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243881/personal-portfolio-webpage/random-quote-machine.png"
+              alt="Project preview"
+              class="project-image"
+            />
+            <p class="project-desc">Random Quote Machine</p>
+          </a>
+        </div>
+        <a
+          href="https://github.com/MERatio?tab=repositories"
+          target="_blank"
+          class="show-all"
+          >Show all <span class="rarr">&rarr;</span></a
+        >
+      </section>
 
-    <!-- project section -->
-    <section id="projects">
-      <h2>These are some of my projects</h2>
-      <div id="project-grid">
-        <a href="https://github.com/MERatio/pomodoro-clock" target="_blank" class="project-tile">
-          <img
-            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243883/personal-portfolio-webpage/pomodoro-clock.png"
-            alt="Project preview" class="project-image">
-          <p class="project-desc">Pomodoro Clock</p>
-        </a>
-        <a href="https://github.com/MERatio/calculator" target="_blank" class="project-tile">
-          <img
-            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243881/personal-portfolio-webpage/calculator.png"
-            alt="Project preview" class="project-image">
-          <p class="project-desc">Calculator</p>
-        </a>
-        <a href="https://github.com/MERatio/markdown-previewer" target="_blank" class="project-tile">
-          <img
-            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243882/personal-portfolio-webpage/markdown-previewer.png"
-            alt="Project preview" class="project-image">
-          <p class="project-desc">Markdown Previewer</p>
-        </a>
-        <a href="https://github.com/MERatio/drum-machine" target="_blank" class="project-tile">
-          <img
-            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243881/personal-portfolio-webpage/drun-machine.png"
-            alt="Project preview" class="project-image">
-          <p class="project-desc">Drum Machine</p>
-        </a>
-        <a href="https://github.com/MERatio/random-quote-machine" target="_blank" class="project-tile">
-          <img
-            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243881/personal-portfolio-webpage/random-quote-machine.png"
-            alt="Project preview" class="project-image">
-          <p class="project-desc">Random Quote Machine</p>
-        </a>
-        <a href="https://github.com/MERatio/pig-game" target="_blank" class="project-tile">
-          <img
-            src="https://res.cloudinary.com/dwj9dfm5m/image/upload/v1579243882/personal-portfolio-webpage/pig-game.png"
-            alt="Project preview" class="project-image">
-          <p class="project-desc">Pig Game</p>
-        </a>
-      </div>
-      <a href="https://codepen.io/ratiomark/pens/public" target="_blank" class="show-all">Show all <span
-          class="rarr">&rarr;</span></a>
-    </section>
-
-    <!-- contacts -->
-    <footer id="contacts-footer">
-      <h2>Contacts and Accounts</h2>
-      <ul id="contact-list">
-        <li class="contact-item"><a
-            href="https://docs.google.com/document/d/1DaNt2nm219YSJLiK5GN2tr8kE1veD1sm7y5XrxGDPj0/edit?usp=sharing"
-            class="contact-link contact-email" target="_blank"><i class="fas fa-file-pdf"></i>
-            View my Resume</a>
-        </li>
-        <li class="contact-item"><a href="mailto:markedwardratio@gmail.com" class="contact-link contact-email"
-            target="_blank"><i class="fas fa-at"></i>
-            Email</a>
-        </li>
-        <li class="contact-item"><a href="https://github.com/MERatio" class="contact-link contact-github"
-            target="_blank"><i class="fab fa-github"></i>
-            Github</a>
-        </li>
-        <li class="contact-item"><a href="https://codepen.io/ratiomark" class="contact-link contact-codepen"
-            target="_blank"><i class="fab fa-codepen"></i>
-            Codepen</a></li>
-        <li class="contact-item"><a href="https://www.freecodecamp.org/ratiomark" class="contact-link contact-fcc"
-            id="profile-link" target="_blank"><i class="fab fa-free-code-camp"></i> freeCodeCamp</a></li>
-      </ul>
-    </footer>
-  </main>
-</body>
-
+      <!-- contacts -->
+      <footer id="contacts-footer">
+        <h2>Contacts and Accounts</h2>
+        <ul id="contact-list">
+          <li class="contact-item">
+            <a
+              href="https://docs.google.com/document/d/1DaNt2nm219YSJLiK5GN2tr8kE1veD1sm7y5XrxGDPj0/edit?usp=sharing"
+              class="contact-link contact-email"
+              target="_blank"
+              ><i class="fas fa-file-pdf"></i> View my Resume</a
+            >
+          </li>
+          <li class="contact-item">
+            <a
+              href="mailto:markedwardratio@gmail.com"
+              class="contact-link contact-email"
+              target="_blank"
+              ><i class="fas fa-at"></i> Email</a
+            >
+          </li>
+          <li class="contact-item">
+            <a
+              href="https://github.com/MERatio"
+              class="contact-link contact-github"
+              target="_blank"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </li>
+          <li class="contact-item">
+            <a
+              href="https://codepen.io/ratiomark"
+              class="contact-link contact-codepen"
+              target="_blank"
+              ><i class="fab fa-codepen"></i> Codepen</a
+            >
+          </li>
+          <li class="contact-item">
+            <a
+              href="https://www.freecodecamp.org/ratiomark"
+              class="contact-link contact-fcc"
+              id="profile-link"
+              target="_blank"
+              ><i class="fab fa-free-code-camp"></i> freeCodeCamp</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
 </html>

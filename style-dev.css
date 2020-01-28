@@ -3,15 +3,15 @@
 :root {
   --color-white: #fff;
   --color-black: #000;
-  --color-light-violet: #51355A;
-  --color-violet: #2A0C4E;
-  --color-red: #9E2B25;
-  --color-yellow: #FFE066;
-  --color-blue: #247BA0;
-  --color-green: #70C1B3;
-  --box-shadow-1: 0 1rem 1rem rgba(0, 0, 0, .5);
-  --box-shadow-2: 0 2rem 2rem rgba(0, 0, 0, .5);
-  --translate-y: translateY(-.5rem);
+  --color-light-violet: #51355a;
+  --color-violet: #2a0c4e;
+  --color-red: #9e2b25;
+  --color-yellow: #ffe066;
+  --color-blue: #247ba0;
+  --color-green: #70c1b3;
+  --box-shadow-1: 0 1rem 1rem rgba(0, 0, 0, 0.5);
+  --box-shadow-2: 0 2rem 2rem rgba(0, 0, 0, 0.5);
+  --translate-y: translateY(-0.5rem);
 }
 
 /* || RESET */
@@ -54,10 +54,10 @@ h2 {
 }
 
 h2:after {
-  content: "";
+  content: '';
   display: block;
   width: 10rem;
-  height: .5rem;
+  height: 0.5rem;
   background-color: var(--color-yellow);
   margin: 1rem auto 0 auto;
 }
@@ -93,7 +93,7 @@ h2:after {
   display: inline-block;
   font-size: 2rem;
   padding: 2rem;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .navbar-link:hover,
@@ -139,10 +139,10 @@ h2:after {
 }
 
 .project-tile {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: var(--box-shadow-1);
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .project-tile:hover,
@@ -162,22 +162,22 @@ h2:after {
   font-size: 1.8rem;
   font-weight: 500;
   padding: 1rem;
-  background-color: var(--color-light-violet); 
+  background-color: var(--color-light-violet);
 }
 
 .project-desc::before,
 .project-desc::after {
   opacity: 0;
   visibility: hidden;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .project-desc::before {
-  content: "<";
+  content: '<';
 }
 
 .project-desc::after {
-  content: " />";
+  content: ' />';
 }
 
 .project-tile:hover .project-desc::before,
@@ -194,17 +194,17 @@ h2:after {
   font-size: 1.8rem;
   font-weight: 500;
   padding: 1.2rem 2.4rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   background-color: var(--color-light-violet);
   box-shadow: var(--box-shadow-1);
 }
 
 .rarr {
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .show-all:hover .rarr,
-.show-all:focus .rarr{
+.show-all:focus .rarr {
   margin-left: 1rem;
 }
 
@@ -234,16 +234,16 @@ h2:after {
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 500;
-  transition: all .1s;
+  transition: all 0.1s;
 }
 
 .contact-link i {
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .contact-link:hover,
 .contact-link:active,
-.contact-link:focus {
+.contfocusact-link:focus {
   transform: scale(1.1);
 }
 
